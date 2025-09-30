@@ -35,12 +35,22 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-    <div class="container">
-        <a href="index.html" class="navbar-brand">
-            <img src="assets/image/Lettre_C_stylisee_sur_fond_noir.webp" class="img-fluid img-contact" alt="Branding du site" width="48" height="48" style="border-radius: 50%; margin-right: 1rem;">ESPACE CONTACT
-        </a>
-</nav>
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+  <div class="container">
+    <a href="index.html" class="navbar-brand mx-auto d-flex align-items-center">
+      <img src="assets/image/Lettre_C_stylisee_sur_fond_noir.webp"
+           class="img-fluid img-contact"
+           alt="Branding du site"
+           width="48"
+           height="48"
+           style="border-radius: 50%; margin-right: 1rem;">
+      ESPACE CONTACT
+    </a>
+  </div>
+ </nav>
+</header>
+
 
 
 
