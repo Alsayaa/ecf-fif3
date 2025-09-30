@@ -35,3 +35,7 @@ body {
         font-family: "Adabelle handwriting"; 
         margin-top: 10rem;
 }
+
+#title {
+    margin: auto;
+}

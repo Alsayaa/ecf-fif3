@@ -17,7 +17,7 @@
                      width="48"
                      height="48"
                      class="rounded-circle me-2 img-fluid">
-                <span>ESPACE CONTACT</span>
+                <span class="font" id="title">ESPACE CONTACT</span>
             </a>
         </div>
     </nav>
@@ -27,10 +27,42 @@
         <h1>Bienvenue sur l'espace contact</h1>
         <p>Envoyez-nous un message via le formulaire ci-dessous.</p>
     </section>
+     <section class="row justify-content-center">
+        <div class="col-md-6 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h2 class="mb-4 text-center">Nous contacter</h2>
+            <form action="traitement.php" method="POST" novalidate>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom complet *</label>
+                    <input type="text" id="nom" name="nom" class="form-control" required maxlength="100">
+                    <div class="invalid-feedback">
+                        Veuillez entrer votre nom.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Adresse email *</label>
+                    <input type="email" id="email" name="email" class="form-control" required maxlength="150">
+                    <div class="invalid-feedback">
+                        Veuillez entrer une adresse email valide.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message *</label>
+                    <textarea id="message" name="message" class="form-control" required minlength="10"></textarea>
+                    <div class="invalid-feedback">
+                        Votre message doit contenir au moins 10 caractères.
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary mb-4">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </main>
 <footer class="bg-dark text-white text-center py-3 mt-auto">
     &copy; <?= date('Y') ?> Espace Contact. Tous droits réservés.
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/index.js"></script>
 </body>
 </html>
