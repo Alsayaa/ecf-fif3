@@ -1,12 +1,15 @@
 <?php
-$host = 'ep-frosty-rice-adbi5zsq-pooler.c-2.us-east-1.aws.neon.tech';
-$port = '5432';
-$db   = 'neondb';
-$user = 'neondb_owner';
-$pass = 'npg_Z6CifE2XrqhB'; // A mettre dans .env, pas laisser ici , $pass = getenv('DB_PASSWORD');
-$sslmode = 'require';
 
-$dsn = "pgsql:host=$host;port=$port;dbname=$db;sslmode=$sslmode";
+$env = parse_ini_file(__DIR__ . '/../.env');
+
+$host = $env['DB_HOST'];
+$port = $env['DB_PORT'];
+$db   = $env['DB_NAME'];
+$user = $env['DB_USER'];
+$pass = $env['DB_PASS'];
+$ssl  = $env['DB_SSL'];
+
+$dsn = "pgsql:host=$host;port=$port;dbname=$db;sslmode=$ssl";
 
 try {
     $pdo = new PDO($dsn, $user, $pass, [
@@ -14,5 +17,5 @@ try {
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     ]);
 } catch (PDOException $e) {
-    die("Erreur de connexion PostgreSQL : " . $e->getMessage());
+    die("Erreur de connexion : " . $e->getMessage());
 }
