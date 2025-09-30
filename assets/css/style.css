@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Adabelle Handwriting";
+  src: url("https://db.onlinewebfonts.com/t/4365bb02a36e62158586bfdbf7beac46.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/4365bb02a36e62158586bfdbf7beac46.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/4365bb02a36e62158586bfdbf7beac46.ttf") format("truetype");
+}
+
+
+:root {
+ 
+}
+
+/* ========================================
+   RESET & BASE STYLES
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+
+.font {
+        font-family: "Adabelle handwriting"; 
+        margin-top: 10rem;
+}
