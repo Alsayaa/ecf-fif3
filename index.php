@@ -1,28 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr-FR">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="NebulaSync vous accompagne dans la création de sites web modernes, accessibles et sur mesure. Sites vitrines, portfolios, blogs – donnez vie à votre présence en ligne dès aujourd'hui.">
-    <meta name="author" content="NebulaSync">
-    <meta name="copyright" content="NebulaSync">
+    <meta name="description" content="Formulaire de contact pour ECF">
+    <meta name="author" content="ECF">
+    <meta name="copyright" content="FIF3">
     <meta name="robots" content="index, follow">
-
-    <!-- Open Graph (Facebook, LinkedIn, WhatsApp, etc) -->
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:site_name" content="Nebula Sync">
-    <meta property="og:title" content="Nebula Sync">
-    <meta property="og:description" content="NebulaSync vous accompagne dans la création de sites web modernes, accessibles et sur mesure. Sites vitrines, portfolios, blogs – donnez vie à votre présence en ligne dès aujourd'hui.">
-    <meta property="og:url" content="https://votre-domaine.fr/">
-    <meta property="og:image" content="assets/image/logo.png">
-
-    <!-- Carte Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="NebulaSync">
-    <meta name="twitter:description" content="NebulaSync vous accompagne dans la création de sites web modernes, accessibles et sur mesure. Sites vitrines, portfolios, blogs – donnez vie à votre présence en ligne dès aujourd'hui.">
-    <meta name="twitter:image" content="profil.jpg">
-
+3
     <title>Formulaire - ECF</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
